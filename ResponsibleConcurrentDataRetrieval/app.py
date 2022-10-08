@@ -9,6 +9,8 @@ from utilities import parse_TOCHeadings
 import time
 import asyncio
 
+
+# read the substance list
 substances = pd.read_excel(r'input/2022_07_15_chemical_universe_list_en.xlsx', index_col=None)
 msk = substances['CAS'].str.match(r'\d{2,7}-\d{2}-\d', na=False)
 substances = substances.loc[msk].reset_index(drop=False)
