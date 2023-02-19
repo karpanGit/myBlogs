@@ -4,7 +4,10 @@
 This repository contains the source code for my blogs that benefit from having the whole code included in one place. This is not needed for all blogs, as for some using gists to inlcude code snippets is sufficient.
 
 ## Blogs
-- Responsible Concurrent Data Retrieval, [blog](https://medium.com/p/80bf7911ca06), [code](https://github.com/karpanGit/myBlogs/tree/master/ResponsibleConcurrentDataRetrieval)
+
+### Responsible Concurrent Data Retrieval
+We use asyncio combined with aiohttp to orchestrate concurrent data retrieval from PubChem. Rate throttling is based on an asyncio semaphore.
+[blog](https://medium.com/p/80bf7911ca06), [code](https://github.com/karpanGit/myBlogs/tree/master/ResponsibleConcurrentDataRetrieval)
 
 
 ## License
