@@ -5,9 +5,9 @@ This repository contains the source code for my blogs that benefit from having t
 
 ## Blogs
 
-### Responsible Concurrent Data Retrieval
+### Responsible Concurrent Data Retrieval [blog](https://medium.com/p/80bf7911ca06) [code](https://github.com/karpanGit/myBlogs/tree/master/ResponsibleConcurrentDataRetrieval)
 We use asyncio combined with aiohttp to orchestrate concurrent data retrieval from PubChem. Rate throttling is based on an asyncio semaphore.
-[blog](https://medium.com/p/80bf7911ca06), [code](https://github.com/karpanGit/myBlogs/tree/master/ResponsibleConcurrentDataRetrieval)
+
 
 
 ## License
