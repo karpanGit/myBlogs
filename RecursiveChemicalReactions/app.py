@@ -257,19 +257,3 @@ dpi = 600
 create_mol_grid(mols, legends, impath, legend_offset, n_cols, figsize, dpi)
 
 
-
-from rdkit.Chem import AllChem
-from rdkit import DataStructs
-fp = AllChem.GetMorganFingerprintAsBitVect(mol, 2, nBits=1024)
-#currently, it's a long list of 0s and 1s.
-fp_arr = np.zeros((1,))
-#conver to array fingerprint
-DataStructs.ConvertToNumpyArray(fp, fp_arr)
-fp_arr
-
-bi = {}
-fp = AllChem.GetMorganFingerprintAsBitVect(mol, 2, nBits=1024, bitInfo=bi)
-list(fp.GetOnBits())
-
-prints = [(mol, x, bi) for x in fp.GetOnBits()]
-prints
