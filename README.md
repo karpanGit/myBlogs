@@ -8,8 +8,6 @@ This repository contains the source code for my blogs that benefit from having t
 ### Responsible Concurrent Data Retrieval [blog](https://medium.com/p/80bf7911ca06), [code](https://github.com/karpanGit/myBlogs/tree/master/ResponsibleConcurrentDataRetrieval)
 We use asyncio combined with aiohttp to orchestrate concurrent data retrieval from PubChem. Rate throttling is based on an asyncio semaphore.
 
-### Recursive Chemical Reactions [blog](https://medium.com/me/stats/post/c6a0fab95fa0), [code](https://github.com/karpanGit/myBlogs/tree/master/RecursiveChemicalReactions)
-We use RDKit to apply chemical reactions recursively. Recursive reactions is a way to fragment a large molecule and examine if its parts match one or more structural pattern.
 
 
 
