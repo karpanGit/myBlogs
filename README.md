@@ -8,8 +8,11 @@ This repository contains the source code for my blogs that benefit from having t
 ### Responsible Concurrent Data Retrieval [blog](https://medium.com/p/80bf7911ca06), [code](https://github.com/karpanGit/myBlogs/tree/master/ResponsibleConcurrentDataRetrieval)
 We use asyncio combined with aiohttp to orchestrate concurrent data retrieval from PubChem. Rate throttling is based on an asyncio semaphore.
 
-### Recursive Chemical Reactions
+### Recursive Chemical Reactions [blog](https://medium.com/p/c6a0fab95fa0), [code](https://github.com/karpanGit/myBlogs/tree/master/RecursiveChemicalReactions)
+Uses RDKit to apply chemical reactions recursively as a means to check if complex structures match a given pattern, e.g. they are peptides.
 
+### Statistical Experiments With Resampling [blog](https://medium.com/p/cb9ad2a5e66b), [code](https://github.com/karpanGit/myBlogs/tree/master/StatisticalExperimentsWithResampling)
+Uses permutation tests and bootstrapping to estimate p-values and power in A/B tests.
 
 ## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
