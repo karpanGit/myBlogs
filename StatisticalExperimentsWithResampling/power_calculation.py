@@ -37,7 +37,7 @@ def compute_stat_significance(n1_success, n1_total, n2_success, n2_total, a=0.05
     for _ in range(n_permutations):
         differences.append(permute_values(pooled_data, n1=n1_total, n2=n2_total))
     differences = pd.Series(differences)
-    p_value = (differences>(n1_mean-n2_mean)).mean()
+    p_value = (differences>=(n1_mean-n2_mean)).mean()
     print(f'contingency matrix: {n1_success}, {n1_total}, {n2_success}, {n2_total}, p-value is {p_value:.4f}')
     return p_value < a
 

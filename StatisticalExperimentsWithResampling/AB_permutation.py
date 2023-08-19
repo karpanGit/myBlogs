@@ -59,5 +59,5 @@ plt.setp(ax, ylabel='frequency')
 fig.savefig('hist.png', dpi=600)
 
 # obtain the p-value
-p_value = (differences>(n1_mean-n2_mean)).mean()
+p_value = (differences>=(n1_mean-n2_mean)).mean()
 print(f'p-value is {p_value:.4f}')
