@@ -14,6 +14,9 @@ Uses RDKit to apply chemical reactions recursively as a means to check if comple
 ### Statistical Experiments With Resampling [blog](https://medium.com/p/cb9ad2a5e66b), [code](https://github.com/karpanGit/myBlogs/tree/master/StatisticalExperimentsWithResampling)
 Uses permutation tests and bootstrapping to estimate p-values and power in A/B tests.
 
+### Statistical Experiments With Resampling [blog](https://medium.com/p/e115e65fee3e), [code](https://github.com/karpanGit/myBlogs/tree/master/MultilayerNeuralNetworks)
+From adaline to multilayer neural networks.
+
 ## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
